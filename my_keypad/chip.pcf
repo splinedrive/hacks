@@ -1,0 +1,45 @@
+set_io --warn-no-port clk  	P7
+set_io --warn-no-port resetn  A3 /* A5 */
+set_io --warn-no-port leds[0] C10
+set_io --warn-no-port leds[1] A10
+set_io --warn-no-port leds[2] D7
+set_io --warn-no-port leds[3] D6
+set_io --warn-no-port leds[4] A7
+set_io --warn-no-port leds[5] C7
+set_io --warn-no-port leds[6] A4
+set_io --warn-no-port leds[7] C4
+set_io --warn-no-port lcol[0]	  A12
+set_io --warn-no-port lcol[1]  D10
+set_io --warn-no-port lcol[2] 	A6
+set_io --warn-no-port lcol[3] 	C5
+set_io --warn-no-port spkp      M12
+set_io --warn-no-port spkm      M6
+
+set_io -pullup yes row[0] A3
+set_io -pullup yes row[1] A2
+set_io -pullup yes row[2] A1
+set_io -pullup yes row[3] C3
+
+set_io -pullup yes col[3] D3
+set_io -pullup yes col[2] B1
+set_io -pullup yes col[1] C1
+set_io -pullup yes col[0] D1
+
+set_io uart_tx B14 
+
+set_io ct[0] C12
+set_io ct[1] C14
+set_io ct[2] D12
+set_io ct[3] D14
+
+set_io pt E12
+
+set_io seg[0] E14 # a
+set_io seg[1] F12 # b
+set_io seg[2] F14 # c
+set_io seg[3] G12 # d
+set_io seg[4] G14 # e
+set_io seg[5] H12 # f
+set_io seg[6] J12 # g
+
+set_io dot K12
